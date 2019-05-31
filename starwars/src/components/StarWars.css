@@ -1,0 +1,31 @@
+
+
+.charInfo {
+    background-color:black; 
+    color:#F3D203; 
+    margin: 1rem auto; 
+    width: 50%; 
+    height: 25rem; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 10px; 
+    transition: .3s ease-in; 
+}
+.charInfo:hover {
+    background-color: gray; 
+    color: #F3D203; 
+}
+
+h4 {
+    margin-top: 0; 
+}
+
+.movies { 
+    margin: 0 auto; 
+    width: 50%; 
+    height: 15rem; 
+    overflow: hidden;  
+}
+ul {
+    list-style-type: none;
+}
