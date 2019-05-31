@@ -1,4 +1,5 @@
 import React from 'react';
+import '../components/StarWars.css'
 
 const Chars = ({ Characters }) => {
     const { name, birth_year, gender, films } = Characters;
@@ -9,13 +10,13 @@ const Chars = ({ Characters }) => {
             <p>Gender: {gender}</p>
             <div className="movies">
                 <h4>Movies</h4>
-                <ol>
+                <ul>
                     {films.map((movie, index) => {
                         return <li key={index}>{movie}</li>
                     }
                     )
                     }
-                </ol>
+                </ul>
             </div>
         </div>
     )
